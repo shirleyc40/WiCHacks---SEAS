@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  	<title> Recyclables </title>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <script src="sendToPage.js"></script>      
+</head>
+
+<body>
+ <input type ="text" id = "SearchBox" placeholder="check if recyclable.." onkeydown = "if (event.keyCode == 13)
+ document.getElementById('SearchButton').click()"> 
+ <input type ="button" id = "SearchButton" value = "Search" onclick = "sendToPage()">
+
+ <script> 
+    sendToPage();
+ </script>
+</body>
+</html>
