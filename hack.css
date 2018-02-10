@@ -29,6 +29,10 @@ html {
 
 }
 
+#SearchButton {
+    opacity: 0;
+}
+
 #SearchBox {
     margin-left: 275px;
     margin-right: 275px;
