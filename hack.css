@@ -47,3 +47,62 @@ html {
     font-size: 30px;
     cursor: text;
 }
+.navbar {
+    background: linear-gradient(to bottom right, lightcyan, MediumAquaMarine );
+    opacity: 0.5;
+    overflow: hidden;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.navbar a {
+  float:left;
+  font-size: 16px;
+  font-family: 'Sofia';
+  margin:10px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: static;  
+}
+.navbar a:hover,.dropdown:hover .dropbtn  {
+    background-color: lightcyan;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-family: 'Sofia';
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  color: black;
+  padding: 14px 16px;
+  border: none;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 10px; /* Important for vertical align on mobile phones */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: MediumAquaMarine;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  background: linear-gradient(to right, aqua, white);;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
