@@ -1,0 +1,45 @@
+html {
+    background-image: url("greenwallpaper.jpg");
+    background-size: cover;
+
+}
+
+.r1 {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#header {
+    color: white; 
+    font-family: 'Rouge Script', cursive;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    line-height: 1;
+    margin-left: 275px;
+
+}
+
+#SearchBox {
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: 0.5;
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+
+    font-size: 30px;
+    cursor: text;
+}
